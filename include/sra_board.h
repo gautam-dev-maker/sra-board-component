@@ -35,4 +35,8 @@
 #include "pin_defs.h"
 #include "utils.h"
 
+#ifdef CONFIG_ENABLE_OLED
+#include "oled.h"
+#endif
+
 #endif
